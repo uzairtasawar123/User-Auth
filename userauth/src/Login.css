@@ -1,0 +1,52 @@
+.signin_div{
+      position: absolute;
+      height: 400px;
+      width: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin-top: 20px !important;
+      margin-left: 200px;
+      box-shadow: 0px 0px 10px 5px grey;
+      border-radius: 20px;
+
+}
+.Login_img{
+    
+    height: 820px;
+    width: 935px;
+
+}
+.Login_heading{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+
+}
+@keyframes change{
+    0%{color: red;}
+    20%{color: pink;}
+    30%{color: tomato;}
+    50%{color: purple;}
+    70%{color: seagreen;}
+    90%{color: blue;}
+    100%{color: blueviolet;}
+}
+
+.submitbtn{
+    height:40px;
+    width: 80px;
+    transition-property: width , height;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.submitbtn:hover{
+    height: 50px;
+    width: 90px;
+}
+

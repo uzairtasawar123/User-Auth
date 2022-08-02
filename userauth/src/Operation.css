@@ -1,0 +1,70 @@
+.main_div{
+    width: 300px;
+    height: 300px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 5px dotted red;
+    border-right: 5px double purple;
+    border-bottom: 5px dotted blue;
+    border-left: 5px solid orange ; */
+    box-shadow: 0px 0px 10px  rgb(145, 123, 0) ;
+}
+
+.plus_button{
+    position: relative;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    animation-name: button1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.minus_button{
+    position: relative;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    animation-name: button1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.heading{
+    margin-left: 750px;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+}
+span{
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes button1{
+    0%{background-color: red;}
+    20%{background-color: pink;}
+    30%{background-color: tomato;}
+    50%{background-color: purple;}
+    70%{background-color: seagreen;}
+    90%{background-color: blue;}
+    100%{background-color: blueviolet;}
+}
+
+@keyframes change{
+    0%{color: red;}
+    20%{color: pink;}
+    30%{color: tomato;}
+    50%{color: purple;}
+    70%{color: seagreen;}
+    90%{color: blue;}
+    100%{color: blueviolet;}
+}
+
